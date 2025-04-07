@@ -1,0 +1,82 @@
+.contact-section {
+    background: #190d2e;
+    padding: 5rem 2rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .section-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    background: linear-gradient(90deg, #0ff, #08f, #f0f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glowTitle 3s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glowTitle {
+    0% { text-shadow: 0 0 5px #0ff; }
+    100% { text-shadow: 0 0 20px #0ff, 0 0 30px #f0f; }
+  }
+  
+  .contact-subtitle {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 3rem;
+  }
+  
+  .contact-card {
+    max-width: 600px;
+    background: #111;
+    margin: 0 auto;
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.08);
+    transition: all 0.4s ease;
+  }
+  
+  .contact-card:hover {
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.3);
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background: #1a1a2e;
+    color: #fff;
+    font-size: 1rem;
+    resize: none;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #aaa;
+  }
+  
+  .glow-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0ff;
+    background: transparent;
+    border: 2px solid #0ff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  
+  .glow-btn:hover {
+    background: #0ff;
+    color: #000;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+  }
+  
