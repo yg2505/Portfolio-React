@@ -2,6 +2,7 @@ import { useRef, useEffect, useState } from 'react';
 // eslint-disable-next-line no-unused-vars
 import { useSprings, animated } from '@react-spring/web';
 
+
 const BlurText = ({
   text = '',
   delay = 200,
