@@ -1,5 +1,5 @@
 import React from 'react';
-import './Skills.css';
+import './skills.css';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython } from 'react-icons/fa';
 import { SiMysql } from 'react-icons/si';
 import Magnet from '../assets/magnet_eff';
