@@ -15,7 +15,7 @@ const projectData = [
     codeLink: 'https://github.com/yg2505/game1',
   },
   {
-    title: 'A PROJECT',
+    title: 'TO-DO App',
     desc: 'A simple to-do app',
     demoLink: 'https://to-do-vert-gamma.vercel.app/',
     codeLink: 'https://github.com/yg2505/To-do',
