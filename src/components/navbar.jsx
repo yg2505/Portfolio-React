@@ -11,7 +11,7 @@ const Navbar = ({ scrollToSection }) => {
 
   const handleNavClick = (section) => {
     scrollToSection(section);
-    setClick(false); // close menu on mobile after click
+    setClick(false);  
   };
 
   return (

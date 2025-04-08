@@ -16,22 +16,11 @@ const projectData = [
   },
   {
     title: 'A PROJECT',
-    desc: '',
-    demoLink: '',
-    codeLink: '',
+    desc: 'A simple to-do app',
+    demoLink: 'https://to-do-vert-gamma.vercel.app/',
+    codeLink: 'https://github.com/yg2505/To-do',
   },
-  {
-    title: 'A PROJECT',
-    desc: '',
-    demoLink: '',
-    codeLink: '',
-  },
-  {
-    title: 'A PROJECT',
-    desc: '',
-    demoLink: '',
-    codeLink: '',
-  },
+ 
 ];
 
 const Projects = () => {
